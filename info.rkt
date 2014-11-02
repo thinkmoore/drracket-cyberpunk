@@ -84,3 +84,5 @@
             (drracket:check-syntax:set!d ,cyan)
             (drracket:check-syntax:unused-require ,red)))
           (white-on-black-base? . #t))))
+
+(define deps '("base"))
